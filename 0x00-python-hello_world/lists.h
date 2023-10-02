@@ -13,4 +13,4 @@ typedef struct listint_s
 
 int check_cycle(listint_t *list);
 
-#endif 
+#endif /* LISTS_H */
