@@ -3,18 +3,14 @@
 
 #include <stdlib.h>
 
-/**
- * struct ListNode - singly linked list
- * @val: string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- */
-typedef struct ListNode
+
+typedef struct listint_s
 {
-int val;
-struct ListNode *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
+
 int check_cycle(listint_t *list);
-#endif
+
+#endif 
