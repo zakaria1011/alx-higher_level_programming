@@ -2,8 +2,7 @@
 #define LISTS_H
 
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+
 /**
  * struct ListNode - singly linked list
  * @val: string
