@@ -11,6 +11,5 @@ if __name__ == "__main__":
         print("{:d}: {:s}".format(index, sys.argv[1]))
     else:
         print("{:d} arguments:".format(argv_count))
-        while index <= argv_count:
+        for index in range(1, argv_count):
             print("{:d}: {:s}".format(index, sys.argv[index]))
-            index += 1
