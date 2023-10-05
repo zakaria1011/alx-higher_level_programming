@@ -7,4 +7,4 @@ result = a + b
 print("{} + {} = {}".format(a, b, result))
 if __name__ == "__main__":
     import sys
-    add(int(sys.argv[1]))
+    add(int(sys.argv[1]), int(sys.argv[2]))
