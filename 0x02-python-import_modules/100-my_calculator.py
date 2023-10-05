@@ -8,14 +8,19 @@ if __name__ == "__main__":
     if (sys.argv[2] == "+"):
         result = int(sys.argv[1]) + int(sys.argv[3])
         print("{} + {} = {}".format(sys.argv[1], sys.argv[3], result))
+        sys.exit(0)
     elif (sys.argv[2] == "-"):
         result = int(sys.argv[1]) - int(sys.argv[3])
         print("{} - {} = {}".format(sys.argv[1], sys.argv[3], result))
+        sys.exit(0)
     elif (sys.argv[2] == "*"):
         result = int(sys.argv[1]) * int(sys.argv[3])
         print("{} * {} = {}".format(sys.argv[1], sys.argv[3], result))
+        sys.exit(0)
     elif (sys.argv[2] == "/"):
         result = int(sys.argv[1]) / int(sys.argv[3])
         print("{} / {} = {}".format(sys.argv[1], sys.argv[3], result))
+        sys.exit(0)
     else :
         print("Unknown operator. Available operators: +, -, * and /")
+        sys.exit(0)
