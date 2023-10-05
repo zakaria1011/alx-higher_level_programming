@@ -8,8 +8,8 @@ if __name__ == "__main__":
         print("{:d} arguments.".format(args_len))
     elif args_len == 1:
         print("{:d} argument:".format(args_len))
-        print("{:d} {:s}".format(i, sys.argv[1]))
+        print("{:d}: {:s}".format(i, sys.argv[1]))
     else:
         print("{:d} arguments:".format(args_len))
         for i in range(1, args_len):
-            print("{:d} {:s}".format(i, sys.argv[i]))
+            print("{:d}: {:s}".format(i, sys.argv[i]))
