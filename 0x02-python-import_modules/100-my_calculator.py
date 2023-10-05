@@ -16,7 +16,7 @@ if __name__ == "__main__":
         result = mul(a, b)
     elif operator == "/":
         result = div(a, b)
-    else :
+    else:
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
     print("{} {} {} = {}".format(a, operator, b, result))
