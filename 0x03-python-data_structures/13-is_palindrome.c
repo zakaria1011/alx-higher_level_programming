@@ -17,6 +17,8 @@ int is_palindrome(listint_t **head)
     int mid, half1 = 0 ,half2 = 0;
     int i;
     current = *head;
+    if (current == NULL)
+        return (1);
     count = num_of_nods(current);
     if (count % 2 == 0)
     {
