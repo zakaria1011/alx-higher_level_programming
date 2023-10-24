@@ -26,8 +26,8 @@ class Square:
     def size(self):
         """ retrieve the size of square)"""
         return self.__size
-    
-    @size.setter 
+
+    @size.setter
     def size(self, value):
         """ control the type of the velue """
         if not isinstance(value, int):
