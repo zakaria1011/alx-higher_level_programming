@@ -37,6 +37,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
+        """ setter """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
@@ -45,8 +46,8 @@ class Rectangle:
 
     def area(self):
         """ return area of rectangle """
-        return self.__height * self.__width
+        return self.height * self.width
 
     def perimeter(self):
         """ return perimeter of rectangle """
-        return (2 * (self.__height + self.__width))
+        return 2 * (self.height + self.width)
