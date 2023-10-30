@@ -5,7 +5,6 @@
 
 class Rectangle:
     """ class triangle """
-    number_of_instances = 0
     def __init__(self, width=0, height=0):
         """
         initiate a rectangle
@@ -71,7 +70,7 @@ class Rectangle:
          to recreate a new instance by using eval()
          """
         return "Rectangle({}, {})".format(self.__width, self.__height)
-    
+
     def __del__(self):
         """ distroctor of rectangle) """
         print("Bye rectangle...")
