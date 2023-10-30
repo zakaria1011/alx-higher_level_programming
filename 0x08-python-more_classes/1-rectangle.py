@@ -13,8 +13,8 @@ class Rectangle:
         width (int): first arg
         height(int): seconde arg
         """
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
