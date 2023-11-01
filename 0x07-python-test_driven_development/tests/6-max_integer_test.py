@@ -28,6 +28,10 @@ class TestMaxInteger(unittest.TestCase):
         """ Test a single element list """
         self.assertEqual(max_integer([2]), 2)
 
+    def test_single_neg_elem(self):
+        """Test one negative num """
+        self.assertEqual(max_integer([-2]), -2)
+
 
 if __name__ == '__main__':
     unittest.main()
