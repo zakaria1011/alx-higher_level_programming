@@ -4,12 +4,12 @@
 
 
 def say_my_name(first_name, last_name=""):
-    """  
+    """
     prinf provided names
 
     first_name (string): first arg
     last_name (string): second arg
-    
+
     """
     if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
