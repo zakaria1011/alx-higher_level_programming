@@ -33,3 +33,13 @@ NameError: name 'zakaria' is not defined
 >>> my_list = MyList(NULL)
 Traceback (most recent call last):
 NameError: name 'NULL' is not defined
+
+Non iterable object int
+>>> my_list = MyList(1)
+Traceback (most recent call last):
+TypeError: 'int' object is not iterable
+
+Non iterable object float
+>>> my_list = MyList(1.2)
+Traceback (most recent call last):
+TypeError: 'float' object is not iterable
