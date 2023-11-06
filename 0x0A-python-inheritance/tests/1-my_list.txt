@@ -23,7 +23,7 @@ Negative list:
 >>> my_list = MyList([-1, -2, -3, -4])
 
 >>> my_list.print_sorted()
-[-1, -2, -3, -4]
+[-4, -3, -2, -1]
 
 Not a list:
 >>> my_list = MyList(zakaria)
@@ -73,3 +73,9 @@ One element in the list
 Checking that MyList inherits from list
 >>> issubclass(MyList, list)
 True
+
+Reverse order list
+>>> my_list = MyList([4, 3, 2, 1])
+
+>>> my_list.print_sorted()
+[1, 2, 3, 4]
