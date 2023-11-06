@@ -1,0 +1,35 @@
+Test cases for 1-my_list.py
+===========================
+
+Importing the classe from the module
+>>> MyList = __import__("1-my_list").MyList
+
+Usage:
+=====
+
+List of positive numbers:
+>>> my_list = MyList([1, 2, 3, 4])
+
+>>> my_list.print_sorted()
+[1, 2, 3, 4]
+
+Empty list:
+>>> empty_list = MyList( )
+
+>>> empty_list.print_sorted()
+[]
+
+Negative list:
+>>> my_list = MyList([-1, -2, -3, -4])
+
+>>> my_list.print_sorted()
+[-1, -2, -3, -4]
+
+Not a list:
+>>> my_list = MyList(zakaria)
+Traceback (most recent call last):
+NameError: name 'zakaria' is not defined
+
+>>> my_list = MyList(NULL)
+Traceback (most recent call last):
+NameError: name 'NULL' is not defined
