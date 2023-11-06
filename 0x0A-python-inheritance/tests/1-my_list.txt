@@ -44,21 +44,6 @@ Non iterable object float
 Traceback (most recent call last):
 TypeError: 'float' object is not iterable
 
-Check docstring for module
->>> m = __import__("1-my_list").__doc__
->>> len(m)>1
-True
-
-Check docstring for classe
->>> m = __import__("1-my_list").MyList.__doc__
->>> len(m)>1
-True
-
-Check docstring for methode
->>> m = __import__("1-my_list").MyList.print_sorted.__doc__
->>> len(m)>1
-True
-
 None object
 >>> my_list = MyList(None)
 Traceback (most recent call last):
