@@ -69,3 +69,7 @@ One element in the list
 
 >>> my_list.print_sorted()
 [1]
+
+Checking that MyList inherits from list
+>>> issubclass(MyList, list)
+True
