@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ class squar inherite from BaseGeo """
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
+BaseGeometry = __import__('9-rectangle').Rectangle
 
 
-class Square(BaseGeometry):
+class Square(Rectangle):
     """ class Square """
     def __init__(self, size):
         """ initiation """
