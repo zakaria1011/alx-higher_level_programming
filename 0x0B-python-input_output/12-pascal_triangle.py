@@ -13,9 +13,9 @@ def pascal_triangle(n):
     result = []
     if n <= 0:
         return result
-    for i in range(n + 1):
+    for i in range(n):
         lists = []
-        for k in range(i + 1):
+        for k in range(i):
             elem_list = int(fact(i)/(fact(k) * fact(i - k)))
             lists.append(elem_list)
         result.append(lists)
