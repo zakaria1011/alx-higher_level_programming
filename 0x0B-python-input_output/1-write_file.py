@@ -13,7 +13,5 @@ def write_file(filename="", text=""):
     """
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(text)
-    with open(filename, 'r') as file:
-        content = file.read()
-        num_of_carac = len(content)
+        num_of_carac = file.tell()
     return num_of_carac
