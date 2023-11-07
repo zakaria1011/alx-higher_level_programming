@@ -8,4 +8,8 @@ class Square(BaseGeometry):
     def __init__(self, size):
         """ initiation """
         self.integer_validator("size", size)
-        self.size = size
+        self.__size = size
+
+    def area(self):
+        """ calculate area """
+        return self.__size
