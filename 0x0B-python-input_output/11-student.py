@@ -19,7 +19,7 @@ class Student:
             if attr in self.__dict__:
                 result[attr] = self.__dict__[attr]
         return result
-    
+
     def reload_from_json(self, json):
         """Replace attributes with values from the provided dictionary."""
         for key, value in json.items():
