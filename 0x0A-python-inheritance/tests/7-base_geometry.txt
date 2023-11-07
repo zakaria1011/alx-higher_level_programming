@@ -1,2 +1,28 @@
 Test cases for 7-base_geometry.py
 ===========================
+
+Importing the classe from the module
+>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+
+Usage:
+=====
+
+Check docstring for module
+>>> m = __import__("7-base_geometry").__doc__
+>>> len(m)>1
+True
+
+Check docstring for classe
+>>> m = __import__("7-base_geometry").BaseGeometry.__doc__
+>>> len(m)>1
+True
+
+Check docstring for methode
+>>> m = __import__("7-base_geometry").BaseGeometry.area.__doc__
+>>> len(m)>1
+True
+
+Check docstring for methode
+>>> m = __import__("7-base_geometry").BaseGeometry.integer_validator.__doc__
+>>> len(m)>1
+True
