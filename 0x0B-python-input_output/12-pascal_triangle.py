@@ -4,12 +4,14 @@
 
 
 def fact(x):
+    """ factorial """
     if x == 0:
         return 1
     return x * fact(x - 1)
 
 
 def pascal_triangle(n):
+    """ pascale triangle """
     result = []
     if n <= 0:
         return result
