@@ -4,10 +4,10 @@
 
 
 def read_file(filename=""):
-    """ 
-    open a file 
+    """
+    open a file
     args:
-    file 
+    file
     """
     with open(filename, 'r') as file:
         for line in file:
