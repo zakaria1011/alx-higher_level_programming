@@ -12,8 +12,6 @@ def fact(x):
 
 def pascal_triangle(n):
     """ pascale triangle """
-    if n is None:
-        return NULL
     result = []
     if n <= 0:
         return result
