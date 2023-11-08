@@ -4,8 +4,6 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-    if not filename or not search_string or not new_string:
-        return
 
     file_lines = []
     with open(filename, 'r') as file:
