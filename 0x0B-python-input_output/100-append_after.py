@@ -4,7 +4,7 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-""" insert text """
+    """ insert text """
     file_lines = []
     with open(filename, 'r') as file:
         file_lines = file.readlines()
