@@ -47,7 +47,7 @@ class Square(Rectangle):
         """ representation of square"""
         return {
             'id': self.id,
-            'x': self.x,
             'size': self.width,
+            'x': self.x,
             'y': self.y
         }
