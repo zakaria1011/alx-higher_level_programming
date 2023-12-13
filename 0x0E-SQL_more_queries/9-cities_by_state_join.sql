@@ -1,5 +1,5 @@
 -- Use the specified database
-SELECT cities.id, cities.name
+SELECT cities.id, cities.name, states.name
 FROM cities
-WHERE cities.state_id = (SELECT id FROM states WHERE name = 'California')
-ORDER BY cities.id ASC;
+INNER JOIN states ON cities.state_id=states.id
+ORDER BY cities.id
