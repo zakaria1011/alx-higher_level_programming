@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const Data = require('./101-data').dict;
-occurDict = {};
-for (key in Data) {
+const occurDict = {};
+for (const key in Data) {
   const val = Data[key];
   if (!(val in occurDict)) {
     occurDict[val] = [];
