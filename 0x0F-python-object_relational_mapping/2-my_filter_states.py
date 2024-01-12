@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """ state that match the arg """
 import MySQLdb
-from sys import argv
+import sys
 if __name__ == "__main__":
-    if len(argv) != 5:
+    if len(sys.argv) != 5:
         exit(1)
 
-    username, password, database, state_name = argv[1:]
+    username, password, database, state_name = sys.argv[1:]
     db = MySQLdb.connect(
         host="localhost",
         port=3306,
