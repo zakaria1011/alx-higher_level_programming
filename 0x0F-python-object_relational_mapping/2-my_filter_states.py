@@ -3,7 +3,6 @@
 import MySQLdb
 import sys
 if __name__ == "__main__":
-
     username, password, database, state_name = sys.argv[1:]
     db = MySQLdb.connect(
         host="localhost",
