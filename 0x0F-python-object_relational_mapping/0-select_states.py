@@ -4,6 +4,7 @@
 import MySQLdb
 import sys
 
+
 def list_states(username, password, database):
     """List all states from the database hbtn_0e_0_usa"""
 
@@ -22,6 +23,7 @@ def list_states(username, password, database):
 
     cursor.close()
     db.close()
+
 
 if __name__ == "__main__":
     
