@@ -6,7 +6,6 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
-
 if __name__ == "__main__":
     engine = create_engine(
         'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(
