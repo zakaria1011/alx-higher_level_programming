@@ -33,6 +33,9 @@ if __name__ == "__main__":
     cursor.execute(query, (state_name,))
 
     result = cursor.fetchone()[0]
-    print(result)
+    if result:
+        print(result)
+    else:
+        print()
     cursor.close()
     db.close()
