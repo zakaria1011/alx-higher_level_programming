@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" fetch an url """
+"""
+ fetch an url 
+ """
 
 
 if __name__ == '__main__':
