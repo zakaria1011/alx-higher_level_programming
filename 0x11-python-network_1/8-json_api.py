@@ -13,10 +13,10 @@ if __name__ == '__main__':
 
     url = 'http://0.0.0.0:5000/search_user0'
     data = {'q': q}
-    response = requests.post(url, json=data)
+    response = requests.post(url, data=data)
 
     try:
-        json_data = response.json()
+        json_data = response.read()
         if json_data == {}:
             print("No result")
         else:
