@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Script that takes in a letter and sends a POST request 
+Script that takes in a letter and sends a POST request
 """
 
 import requests
