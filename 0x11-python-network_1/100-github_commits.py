@@ -6,11 +6,11 @@ import requests
 import sys
 
 if __name__ == '__main__':
-    repo_owner = sys.argv[1]
-    repo_name = sys.argv[2]
+    repo_name = sys.argv[1]
+    repo_owner = sys.argv[2]
 
     api_url = 'https://developer.github.com/v3/repos/{}/{}/commits/'.format(
-        repo_name, repo_owner)
+        repo_owner, repo_name)
     response = requests.get(api_url)
     commits = response.json()
     try:
