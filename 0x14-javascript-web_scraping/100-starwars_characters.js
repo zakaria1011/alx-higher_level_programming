@@ -14,8 +14,8 @@ request(apiUrl, (error, response, body) => {
         console.error('Error', error);
         return;
       }
-      actor_name = JSON.parse(body).name;
-      console.log(actor_name);
+      const actorName = JSON.parse(body).name;
+      console.log(actorName);
     });
   });
 });
